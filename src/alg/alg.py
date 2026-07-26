@@ -8,3 +8,9 @@ def elo_rating():
 
 def elo_change():
     return
+
+def logistic_regression():
+    return
+
+def gradient_boosting():
+    return
