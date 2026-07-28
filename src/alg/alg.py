@@ -14,3 +14,8 @@ def logistic_regression():
 
 def gradient_boosting():
     return
+
+def main():
+    df = pd.read_csv('afl_matches_clean.csv')
+
+main()
