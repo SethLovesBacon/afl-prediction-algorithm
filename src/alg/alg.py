@@ -17,5 +17,6 @@ def gradient_boosting():
 
 def main():
     df = pd.read_csv('afl_matches_clean.csv')
+    team = []
 
 main()
