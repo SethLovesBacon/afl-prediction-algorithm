@@ -17,6 +17,25 @@ def gradient_boosting():
 
 def main():
     df = pd.read_csv('afl_matches_clean.csv')
-    team = []
+    team = [
+        'Adelaide',
+        'Brisbane',
+        'Carlton',
+        'Collingwood',
+        'Essendon',
+        'Fremantle',
+        'Geelong',
+        'Gold Coast',
+        'GWS Giants',
+        'Hawthorn',
+        'Melbourne',
+        'North Melbourne',
+        'Port Adelaide',
+        'Richmond',
+        'St Kilda',
+        'Sydney',
+        'West Coast',
+        'Western Bulldogs',
+    ]
 
 main()
